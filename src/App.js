@@ -7,7 +7,7 @@ const App = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [month, setMonth] = useState(0);
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -38,21 +38,21 @@ const App = () => {
           <label htmlFor={email}>
             Enter Email
           </label>
-          <input type='email' name='email' />
+          <input type='email' name='email' onChange={(e) => setEmail(e.target.value)} />
         </div>
         <br />
         <div>
           <label htmlFor={password}>
             Enter Password
           </label>
-          <input type='password' name='password' />
+          <input type='password' name='password' onChange={(e) => setPassword(e.target.value)} />
         </div>
         <br />
         <div>
           <label htmlFor={month}>
             Enter Months For
           </label >
-          <input type='number' name='month' />
+          <input type='number' name='month' onChange={(e) => setMonth(e.target.value)} />
         </div >
         <br />
         <div>
