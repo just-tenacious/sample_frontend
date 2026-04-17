@@ -12,7 +12,11 @@ const App = () => {
   const submitForm = (e) => {
     e.preventDefault();
     // console.log("Button clicked");
+    // console.log(lid);
     console.log(name);
+    console.log(email);
+    console.log(password);
+    console.log(month);
     setName('');
   }
 
@@ -24,7 +28,7 @@ const App = () => {
           <label htmlFor="id">
             Enter Id
           </label>
-          <input type='number' name='id' value={lid} onChange={(e) => setId(e.target.value())} min={1} max={99} required />
+          <input type='number' name='id' min={1} max={99} required />
         </div>
         <br />
         <div>
