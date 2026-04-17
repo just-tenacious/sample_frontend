@@ -24,9 +24,28 @@ div label {
 div input {
   font: large;
   float: right;
-  width: 50vw;
+  width: 40vw;
 }
 
 button {
   width: 100%;
+}
+
+.main-card {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+h1 {
+  color: rgb(55, 6, 100);
+}
+
+input,
+label {
+  color: darkblue;
+}
+
+input {
+  padding: 2px;
 }

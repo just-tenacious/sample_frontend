@@ -17,8 +17,8 @@ const App = () => {
   }
 
   return (
-    <div className='card p-2 m-4'>
-      <h1 className='h-2 p-3 text-align-center'>Online cloud deployment on netlify of Library Subscription System</h1>
+    <div className='card p-2 m-30 main-card'>
+      <h1 className='h-2 p-3 text-align-center'>Online cloud deployment on netlify of <br />Library Subscription System</h1>
       <form onSubmit={submitForm}>
         <div>
           <label htmlFor="id">
