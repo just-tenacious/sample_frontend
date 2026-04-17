@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./App.css";
 
 const App = () => {
-  const [lid, setId] = useState(0);
+  // const [lid, setId] = useState(0);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
